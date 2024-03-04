@@ -1,0 +1,55 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+.Card {
+
+    width: 284px;
+    height: 329px;
+    position: relative;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px rgba(14, 13, 13, 0.521);
+    transition: box-shadow 3s linear 2s;
+}
+.Card:hover {
+    box-shadow: 0px 0px 50px rgba(14, 13, 13, 0.979);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.Title {
+    position: absolute;
+    bottom: -1.5rem;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    transition: transform 1s;
+}
+.Card:hover .Title {
+    transform: translateX(100%);
+}
+.triangle {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 31px 0 31px 63px;
+    border-color: transparent transparent transparent #039126;
+    transform: rotate(0deg);
+    position: absolute;
+    bottom: 0px;
+    left: -100px;
+    transition: translateX 1s;
+    
+ }
+ .Card:hover .triangle {
+    transform: translateX(200%);
+ }
