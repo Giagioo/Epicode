@@ -1,6 +1,7 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 body {
@@ -8,11 +9,20 @@ body {
 }
 
 header {
-  back;
+
   padding: 20px 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
 
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 
@@ -23,9 +33,14 @@ header {
 
 .Tabs {
   padding-top: 150px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(207, 203, 203);
   padding-left: 150px;
+}
 
+.Button {
+  font-size: large;
+  font-weight: bold;
+  border-bottom: 1px solid black;
 }
 
 .Tabs span {
@@ -40,19 +55,76 @@ header {
   padding-top: 100px;
 }
 
-.Article{
+.Article {
   padding-bottom: 50px;
 
 }
 
-  .info span {
-    color: rgba(117, 117, 117, 1);
-    font-size: 13px;
-    line-height: 20px;
-    white-space: nowrap;
-  }
+.info span {
+  color: rgba(117, 117, 117, 1);
+  font-size: 13px;
+  line-height: 20px;
+  white-space: nowrap;
+}
 
-  .Article img{
-    float: right;
-  }
-  
+.Article img {
+  position: relative;
+  left: 315px;
+  bottom: 100px;
+}
+
+
+aside{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  float: right;
+  width: 50%;
+  bottom: 1300px;
+  border-left: 1px solid rgb(207, 203, 203);
+}
+
+
+aside h4 {
+  margin-bottom: 16px;
+}
+
+aside .topics {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 24px;
+  margin-right: 150px;
+}
+
+aside .topics .topic {
+  font-size: 13px;
+  line-height: 20px;
+  padding: 6px 16px;
+  border: 1px solid rgba(230, 230, 230, 1);
+  color: rgba(117, 117, 117, 1);
+  letter-spacing: 0.25px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  border-radius: 50px;
+  background-color: rgb(204, 204, 204, 1);
+}
+
+aside footer {
+  padding-top: 24px;
+  border-top: 1px solid rgba(230, 230, 230, 1);
+}
+aside footer ul {
+  list-style: none;
+}
+
+aside footer ul li {
+  display: inline-block;
+  margin-right: 24px;
+  margin-bottom: 8px;
+}
+aside footer li a {
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(117, 117, 117, 1);
+  text-decoration: none;
+}
