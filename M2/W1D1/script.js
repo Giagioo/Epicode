@@ -9,9 +9,10 @@ console.log("Il risultato è" + chilometri)
 
 //document.write("Il risultato è" + chilometri)
 
+//prova push
 
 
 
 
 
-
+nkml
