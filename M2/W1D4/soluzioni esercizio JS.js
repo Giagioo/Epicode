@@ -18,7 +18,7 @@ document.write("RISPOSTA ESERCIZIO 1: In JavaScript i principali datatype sono: 
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-document.write()
+document.write("RISPOSTA ESERCIZIO 2: In JavaScript, un oggetto è un insieme di valori che si riferiscono alla stessa variabile.")
 /* ESERCIZIO 3
  Scriti il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
