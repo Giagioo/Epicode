@@ -1,0 +1,15 @@
+.amazon-link {
+    color: magenta; 
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nascosto {
+    display: none;
+}
+
+.prezzo {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
