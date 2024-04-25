@@ -1,0 +1,24 @@
+.bg-red{
+    background-color: red;
+    color: white;
+}
+
+.height-100{
+    height: 100px;
+}
+
+.bg-blue{
+    background-color: blue;
+    color: white;
+
+}
+
+.bg-yellow{
+    background-color: yellow;
+    color: white;
+}
+
+.border-full{
+    border: 5px solid black;
+}
+
