@@ -1,0 +1,33 @@
+/*ESERCIZIO 1   */
+.hero h1{
+
+}
+
+/* ESERCIZIO 2 */
+.nav > * {
+}
+
+/* ESERCIZIO 3 */
+.jumbotron a.continua-a-leggere{
+
+}
+
+/* ESERCIZIO 4 */
+.col-md-8.blog-main .blog-post:first-of-type {
+   
+  }
+
+  /* ESERCIZIO 5 */
+  .col-md-8.blog-main .blog-post:first-of-type hr {
+    border-color: red;
+  }
+
+  /* ESERCIZIO 6 */
+  .nav span:nth-child(even) {
+    
+  }
+
+  /* ESERCIZIO 7 */
+  .nav span:nth-child(odd) {
+    
+  }
