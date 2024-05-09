@@ -1,0 +1,35 @@
+header {
+    background-color: rgb(95, 93, 93);
+    border-radius: 15px;
+}
+.sticky {
+    position: sticky;
+    top: 12px;
+    z-index: 1000000;
+}
+nav.navbar a {
+    color: white;
+}
+.bg-body-tertiary {
+    background-color: transparent!important;
+}
+.carousel-indicators {
+    justify-content: space-evenly;
+}
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.desc {
+    opacity: 0;
+}
+.carousel-item .col-md-3:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: transform 1s;
+}
+.carousel-item .col-md-3:hover .desc {
+    opacity: 1;
+    transition: opacity 1s;
+}
